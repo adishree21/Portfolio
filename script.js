@@ -23,13 +23,22 @@ window.onload = function () {
 
 /* MODAL DATA */
 const projectData = {
+  compliance: {
+    title: "Compliance Data Analysis Dashboard",
+    desc: "Built a Power BI dashboard using SQL + DAX for Compliance analytics and reporting data.",
+    points: [
+      "Designed data model supporting multi-level drill-down analysis for performance tracking.",
+      "Experience analyzing operational data to identify anomalies and compliance gaps.",
+      "Developed interactive visuals for traffic sources and client insights."
+    ]
+  },
   youtube: {
     title: "YouTube Data Analysis Dashboard",
     desc: "Built a Power BI dashboard using SQL + DAX for YouTube analytics data.",
     points: [
       "Processed YouTube API export into relational SQL tables",
       "Created CTR, Engagement Rate, Retention metrics using DAX",
-      "Developed interactive visuals for traffic sources and audience insights"
+      "Developed interactive visuals for traffic sources and audience insights."
     ]
   },
   healthcare: {
